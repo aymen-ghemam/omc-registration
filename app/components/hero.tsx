@@ -71,13 +71,18 @@ const Hero = () => {
 
         </ul>
       </nav>
-      <div className="text-center flex-col flex justify-center items-center mt-20">
-     <h1 className="text-7xl text-[#2F3729] magic-school">
-        The Call for New Wizards Begins!
-      </h1>
-      <p className="text-2xl mt-6 max-w-2xl text-center text-[#2F3729]">Step into a world where technology meets magic
-       <br/> Our mission to share knowledge, spark creativity, and bring students together through open source and scientific events.</p>
-      </div>
+      {pathname !== "/register" && (
+        <div className="text-center flex-col flex justify-center items-center mt-20">
+          <h1 className="text-7xl text-[#2F3729] magic-school">
+            The Call for New Wizards Begins!
+          </h1>
+          <p className="text-2xl mt-6 max-w-2xl text-center text-[#2F3729]">
+            Step into a world where technology meets magic
+            <br />
+            Our mission to share knowledge, spark creativity, and bring students together through open source and scientific events.
+          </p>
+        </div>
+      )}
       </div>
     </div>
   );
