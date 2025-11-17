@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "MagicSchoolOne";
+  src: url("/fonts/MagicSchoolOne.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.magic-school {
+  font-family: "MagicSchoolOne";
+}
+
 .page-background {
   position: relative;
   min-height: 100vh;

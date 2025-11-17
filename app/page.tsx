@@ -1,12 +1,9 @@
-import Header from "./components/header";
+import Hero from "./components/hero";
 
 export default function Home() {
   return (
     <div className="page-background">
-      <Header />
-      <div className="text-6xl">
-        hii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hihii <br/>hi
-      </div>
+      <Hero />
     </div>
   );
 }
