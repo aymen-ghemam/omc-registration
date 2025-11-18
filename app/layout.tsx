@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import localFont from "next/font/local";
 import { Headland_One } from "next/font/google";
 import "./globals.css";
 import FlipClock from "./components/flip-clock";

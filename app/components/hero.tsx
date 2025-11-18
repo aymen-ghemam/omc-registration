@@ -27,10 +27,9 @@ const Hero = () => {
       case "/":
         return (
           <>
-            Step into a world where technology meets magic
-            <br />
-            Our mission to share knowledge, spark creativity, and bring students
-            together through open source and scientific events.
+            Step into a world where technology meets magic <br /> Our mission to
+            share knowledge, spark creativity, and bring students together
+            through open source and scientific events.
           </>
         );
       case "/register":
@@ -43,12 +42,12 @@ const Hero = () => {
   return (
     <div className="w-full">
       {/* Image de fond */}
-      <div className="absolute inset-0 w-full">
+      <div className="absolute inset-0 w-full z-[-1]">
         <img src="/header.svg" alt="header" className="w-full object-cover" />
       </div>
 
-      <nav className="absolute inset-0 mt-10 flex justify-center items-start">
-        <ul className="flex gap-16 text-2xl font-semibold">
+      <nav className="w-full inset-0 mt-5 md:mt-10 flex justify-center items-start">
+        <ul className="w-full px-10 flex justify-center gap-4 md:gap-10 text-m md:text-2xl font-semibold">
           {/* HOME */}
           <li>
             <Link
@@ -108,9 +107,12 @@ const Hero = () => {
       </nav>
 
       {/* Dynamic Title and Description */}
-      <div className="text-center flex-col flex justify-center items-center mt-40">
+      <div className="text-center flex-col flex justify-center items-center mt-10 pb-10">
         <h1 className="text-7xl text-[#2F3729] magic-school">{getTitle()}</h1>
-        <p className="text-2xl mt-6 max-w-2xl text-center text-[#2F3729]">
+        <p
+          className="text-xl headland mt-4 max-w-xl text-center text-[#2F3729]"
+          style={{ fontFamily: "headland" }}
+        >
           {getDescription()}
         </p>
       </div>
