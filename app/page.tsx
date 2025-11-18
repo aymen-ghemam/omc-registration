@@ -21,7 +21,6 @@ export default function Home() {
       </div>
       <EventsPic />
       <Departement />
-      <Contact />
     </div>
   );
 }

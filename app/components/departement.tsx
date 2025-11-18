@@ -46,8 +46,8 @@ const Departement = () => {
       </div>
 
       {/* Citation */}
-      <div className="px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school mt-20 lg:mt-32 text-center">
+      <div className="px-4 py-12 md:py-22">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school text-center">
           "Ce qui ne se partage<br className="hidden md:block"/> pas se perd"
         </h1>
       </div>
