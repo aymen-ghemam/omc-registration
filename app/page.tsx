@@ -5,6 +5,7 @@ import FlipClock from "./components/flip-clock";
 import EventsPic from "./components/eventsPic";
 import Link from "next/link";
 import Departement from "./components/departement"; 
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
     </div>
       <EventsPic />
       <Departement />
+      <Contact/>
     </div>
   );
 }

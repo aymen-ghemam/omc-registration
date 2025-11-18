@@ -2,7 +2,7 @@ import React from "react";
 
 const Departement = () => {
   return (
-    <div>
+    <div id="departement">
       <div className="text-center flex-col flex justify-center items-center mt-20">
         <h1 className="text-7xl text-[#2F3729] magic-school">
           Discover our houses
