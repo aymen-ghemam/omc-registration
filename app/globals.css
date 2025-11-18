@@ -74,7 +74,7 @@ html {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("/bg.jpg");
+    background-image: url("/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
