@@ -574,7 +574,7 @@ const RegistrationForm = () => {
                       {[
                         {
                           value: "design",
-                          label: "Design House (Highly Recommending)",
+                          label: "Design House (Highly Recommended)",
                         },
                         { value: "it", label: "IT House" },
                         { value: "marketing", label: "Marketing House" },
