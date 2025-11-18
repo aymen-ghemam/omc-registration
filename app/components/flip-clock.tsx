@@ -172,7 +172,7 @@ export default function FlipClock() {
           </div>
         </div>
 
-        <p className="clock-label text-center magic-school text-5xl text-[rgba(47,55,41,1)]">
+        <p className="clock-label text-center magic-school md:text-5xl text-4xl text-[rgba(47,55,41,1)]">
           Days
         </p>
       </div>
@@ -190,7 +190,7 @@ export default function FlipClock() {
           </div>
         </div>
 
-        <p className="clock-label text-center magic-school text-5xl text-[rgba(47,55,41,1)]">
+        <p className="clock-label text-center magic-school md:text-5xl text-4xl text-[rgba(47,55,41,1)]">
           Hours
         </p>
       </div>
@@ -208,7 +208,7 @@ export default function FlipClock() {
           </div>
         </div>
 
-        <p className="clock-label text-center magic-school text-5xl text-[rgba(47,55,41,1)]">
+        <p className="clock-label text-center magic-school md:text-5xl text-4xl text-[rgba(47,55,41,1)]">
           Minutes
         </p>
       </div>

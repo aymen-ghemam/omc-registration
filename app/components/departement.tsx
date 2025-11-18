@@ -19,13 +19,13 @@ const Departement = () => {
         {/* Bloc gauche */}
         <div className="w-full lg:w-[30%] text-center lg:text-left">
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school">IT department</h1>
-          <p className="text-lg md:text-xl text-[#2F3729] mt-2">The IT team manages the club's digital infrastructure and database while fostering problem-solving and self-learning skills.</p>
+          <p className="text-md md:text-xl text-[#2F3729] mt-2">The IT team manages the club's digital infrastructure and database while fostering problem-solving and self-learning skills.</p>
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school mt-8 lg:mt-12">Marketing department</h1>
-          <p className="text-lg md:text-xl text-[#2F3729] mt-2">The Marketing team promotes the club's image through targeted content and impactful social media communication.</p>
+          <p className="text-md md:text-xl text-[#2F3729] mt-2">The Marketing team promotes the club's image through targeted content and impactful social media communication.</p>
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school mt-8 lg:mt-12">b2B department</h1>
-          <p className="text-lg md:text-xl text-[#2F3729] mt-2">The marketing department is a highly dynamic environment that promotes our club's image to specific target audiences through social media.</p>
+          <p className="text-md md:text-xl text-[#2F3729] mt-2">The marketing department is a highly dynamic environment that promotes our club's image to specific target audiences through social media.</p>
         </div>
 
         {/* Image centrée - visible seulement sur desktop */}
@@ -38,15 +38,15 @@ const Departement = () => {
         {/* Bloc droit */}
         <div className="w-full lg:w-[30%] text-center lg:text-left">
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school lg:mt-12">Design department</h1>
-          <p className="text-lg md:text-xl text-[#2F3729] mt-2">The Design Team handles the aesthetic aspects of our club's activities and events (social media posts, UI/UX, etc.)</p>
+          <p className="text-md md:text-xl text-[#2F3729] mt-2">The Design Team handles the aesthetic aspects of our club's activities and events (social media posts, UI/UX, etc.)</p>
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school mt-8 lg:mt-12">HR department</h1>
-          <p className="text-lg md:text-xl text-[#2F3729] mt-2">HR manages members, recruiting, and guiding them to teams that match their skills and interests. They value versatility and a strong willingness to learn above all else.</p>
+          <p className="text-md md:text-xl text-[#2F3729] mt-2">HR manages members, recruiting, and guiding them to teams that match their skills and interests. They value versatility and a strong willingness to learn above all else.</p>
         </div>
       </div>
 
       {/* Citation */}
-      <div className="px-4 py-12 md:py-22">
+      <div className="px-1 py-12 md:py-22">
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-[#2F3729] magic-school text-center">
           "Ce qui ne se partage<br className="hidden md:block"/> pas se perd"
         </h1>

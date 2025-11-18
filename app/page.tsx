@@ -15,7 +15,7 @@ export default function Home() {
           <img
             src="/button.svg"
             alt="Wizard Illustration"
-            className="mx-auto mt-16 md:w-[18vw] hover:scale-105 transition-transform duration-300 cursor-pointer"
+            className="mx-auto md:mt-16 md:w-[18vw] w-40 hover:scale-105 transition-transform duration-300 cursor-pointer"
           />
         </Link>
       </div>
