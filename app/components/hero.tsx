@@ -110,7 +110,7 @@ const Hero = () => {
       <div className="text-center flex-col flex justify-center items-center mt-10 pb-10">
         <h1 className="text-7xl text-[#2F3729] magic-school">{getTitle()}</h1>
         <p
-          className="text-xl headland mt-4 max-w-xl text-center text-[#2F3729]"
+          className="text-xl headland mt-4 max-w-xl text-center text-[#2F3729] px-4"
           style={{ fontFamily: "headland" }}
         >
           {getDescription()}
