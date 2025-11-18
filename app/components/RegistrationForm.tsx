@@ -249,7 +249,7 @@ const RegistrationForm = () => {
           {!submitSuccess && (
             <form
               onSubmit={handleSubmit}
-              className="flex flex-col gap-8 p-10"
+              className="flex flex-col gap-8 md:p-10"
               id="registration-form"
             >
               {/* Error Message */}
@@ -268,7 +268,7 @@ const RegistrationForm = () => {
                   className="w-24 h-24"
                 />
                 <div className="text-4xl md:text-5xl lg:text-6xl magic-school text-[#2F3729] text-center">
-                  <h2 className="text-5xl magic-school text-[#2F3729] text-center">
+                  <h2 className="md:text-5xl text-4xl magic-school text-[#2F3729] text-center">
                     {currentStep === 1
                       ? "1. Personal Information"
                       : currentStep === 2
@@ -520,7 +520,7 @@ const RegistrationForm = () => {
                   </div>
 
                   {/* Next Button */}
-                  <div className="flex justify-center mt-8">
+                  <div className="flex justify-center mt-8 md:w-auto w-32">
                     <button
                       type="button"
                       className="cursor-pointer"
