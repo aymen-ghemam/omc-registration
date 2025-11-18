@@ -196,6 +196,10 @@ body {
     content: "";
     position: absolute;
     inset: 0;
+    background-image: url("/owl.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background: linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0.01),
@@ -203,6 +207,19 @@ body {
     );
     pointer-events: none;
     z-index: 2;
+}
+
+.form-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/owl.png");
+    background-size: 70% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.4;
+    z-index: -2;
 }
 
 #registration-form * {
@@ -231,23 +248,23 @@ body {
 }
 
 .scroll-container {
-  display: flex;
-  animation: scroll-left 30s linear infinite;
-  margin-top: 5.5rem;
-  margin-bottom: 3rem;
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
 }
 
 @keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    /* Translate by one image width so it loops seamlessly */
-    transform: translateX(-50%);
-  }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Translate by one image width so it loops seamlessly */
+        transform: translateX(-50%);
+    }
 }
 
 /* Pause animation on hover for better UX */
 .scroll-container:hover {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
