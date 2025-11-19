@@ -256,6 +256,7 @@ html {
     animation: scroll-left 30s linear infinite;
     margin-top: 5.5rem;
     margin-bottom: 3rem;
+    rotate: 2deg;
 }
 
 @keyframes scroll-left {
