@@ -28,6 +28,28 @@ export const metadata: Metadata = {
   icons: {
     icon: "/omc.svg",
   },
+  openGraph: {
+    title: "OpenMindsClub Registration",
+    description: "The Call for New Wizards Begins!",
+    url: "https://join.openmindsclub.net",
+    siteName: "OpenMindsClub Registration",
+    images: [
+      {
+        url: "/thumbnail.png",
+        width: 821,
+        height: 510,
+        alt: "OpenMindsClub Registration - The Call for New Wizards Begins!",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "OpenMindsClub Registration",
+    description: "The Call for New Wizards Begins!",
+    images: ["/thumbnail.png"],
+  },
 };
 
 export default function RootLayout({
