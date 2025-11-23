@@ -4,9 +4,22 @@ import { registrationSchema } from "@/lib/validation";
 import { z } from "zod";
 import { Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";
+import { isAfterDeadline } from "@/lib/config";
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if registration deadline has passed
+    if (isAfterDeadline()) {
+      return NextResponse.json(
+        {
+          success: false,
+          error:
+            "Registration deadline has passed. Registrations are now closed.",
+        },
+        { status: 403 },
+      );
+    }
+
     // Parse the request body
     const body = await request.json();
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { REGISTRATION_DEADLINE } from "@/lib/config";
 
 export default function FlipClock() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -10,8 +11,7 @@ export default function FlipClock() {
     const container = containerRef.current;
     if (!container) return;
 
-    // Target date: November 23rd, 2025 at 8:00 PM Algeria Time (CET - UTC+1)
-    const targetDate = new Date("2025-11-23T20:00:00+01:00");
+    const targetDate = REGISTRATION_DEADLINE;
 
     const configs = [
       {
